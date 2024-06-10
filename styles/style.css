@@ -30,6 +30,7 @@
    font-size: 15px;
    color: black;
    transition-duration: 0.1s;
+   
 }
 .burger-icon {
     display: none;
@@ -238,9 +239,10 @@ main {
         justify-content: center;
         gap: 30px;
         border: none;
-        
     }
 
+    .link {font-weight: 400;}
+    
     .result_infos.img_blocks { border-bottom: 0; }
 
     .img_blocks .img_item { align-self: center; }
