@@ -229,9 +229,9 @@ main {
         border-top: none; border-bottom: none;
     }
 
-    .title { font-size: 30px; }
-    .textcontent { font-size: 23px; }
-    .link { font-size: 23px; }
+    .title { font-size: 35px; }
+    .textcontent { font-size: 25px; }
+    .link { font-size: 25px; }
     .block.goods {
         flex-direction: row;
         flex-wrap: wrap;
@@ -248,6 +248,7 @@ main {
     .goods .block-item {
         width: 45%;
         border: 2px dashed rgb(167, 167, 167);
+        min-height: 420px;
     }
     .sponsors .img_blocks {
         flex-wrap: wrap;
