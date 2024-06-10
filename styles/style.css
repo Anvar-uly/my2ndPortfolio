@@ -241,12 +241,18 @@ main {
         
     }
 
-    .result_infos.img_blocks {
-        border-bottom: 0;
-    }
+    .result_infos.img_blocks { border-bottom: 0; }
+
+    .img_blocks .img_item { align-self: center; }
 
     .goods .block-item {
         width: 45%;
         border: 2px dashed rgb(167, 167, 167);
+    }
+    .sponsors .img_blocks {
+        flex-wrap: wrap;
+        align-items: flex-start;
+        gap: 30px; width: 100%;
+        min-height: 50px;
     }
 }
