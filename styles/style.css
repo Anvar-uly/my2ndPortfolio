@@ -170,7 +170,7 @@ main {
     }
 }
 @media (max-width: 992px) {
-    .burger-icon {display: flex;}
+    .burger-icon { display: flex; }
     .header_content {flex-direction: row;}
     .nav {
         display: none;
@@ -241,8 +241,6 @@ main {
         border: none;
     }
 
-    .link {font-weight: 400;}
-    
     .result_infos.img_blocks { border-bottom: 0; }
 
     .img_blocks .img_item { align-self: center; }
@@ -250,7 +248,7 @@ main {
     .goods .block-item {
         width: 45%;
         border: 2px dashed rgb(167, 167, 167);
-        min-height: 420px;
+        min-height: 450px;
     }
     .sponsors .img_blocks {
         flex-wrap: wrap;
