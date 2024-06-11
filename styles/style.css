@@ -71,7 +71,7 @@ main {
     flex-wrap: wrap;
     flex-direction: row;
     width: 99.7%;
-    border: 2px dashed rgb(167, 167, 167);
+    border: 1.5px solid rgb(167, 167, 167);
     justify-content: space-around;
     align-items: center;
 }
@@ -103,7 +103,7 @@ main {
 .textcontent { font-family: monospace; }
 .img_item {
     display: flex;
-    border: 2px dashed rgb(167, 167, 167);
+    border: 1.5px solid rgb(167, 167, 167);
     border-top: 0; border-bottom: 0;
 }
 .img_blocks {
@@ -112,7 +112,7 @@ main {
     align-items: center;
     justify-content: space-between;
     width: 99.5%;
-    border: 2px dashed rgb(167, 167, 167);
+    border: 1.5px solid rgb(167, 167, 167);
     border-left: 0; border-right: 0;
 }
 
@@ -125,7 +125,7 @@ main {
 .goods .block-item {
     width: 20%;
     height: 100%;
-    border: 2px dashed rgb(167, 167, 167);
+    border: 1.5px solid rgb(167, 167, 167);
     border-top: 0; border-bottom: 0;
     min-height: 320px;
     justify-content: flex-end;
@@ -211,7 +211,7 @@ main {
     }
     .block.main-block .block-item:first-child {
         padding: 10px 0;
-        border: 2px dashed rgb(167, 167, 167);
+        border: 1.5px solid rgb(167, 167, 167);
         border-top: none; border-right: none;
         border-left: 0;
     }
@@ -221,12 +221,12 @@ main {
         gap: 0px;
     }
     .block-item.main-block .textcontent {
-        border: 2px dashed rgb(167, 167, 167);
+        border: 1.5px solid rgb(167, 167, 167);
         border-left: 0; border-right: 0;
         border-bottom: 0;
     }
     .block-item.main-block .img_item {
-        border: 2px dashed rgb(167, 167, 167);
+        border: 1.5px solid rgb(167, 167, 167);
         border-top: none; border-bottom: none;
     }
 
@@ -247,7 +247,7 @@ main {
 
     .goods .block-item {
         width: 45%;
-        border: 2px dashed rgb(167, 167, 167);
+        border: 1.5px solid rgb(167, 167, 167);
         min-height: 450px;
     }
     .sponsors .img_blocks {
