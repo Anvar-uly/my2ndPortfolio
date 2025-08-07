@@ -10,6 +10,7 @@ document.querySelector('.burger-icon').addEventListener('click', function (){
     navigationMenu.classList.toggle('active');
 });
 
-console.log('site by Anvar [11-121 group]');
+console.log('Привет Магдалина! Привет Мелания! Привет Юра! ВСЕМ БОЛЬШООООООООЙ ПРИВЕТ!!!!!!!!!!!!1!!11111!!1!!ЭЭЭЭ');
+
 
 
